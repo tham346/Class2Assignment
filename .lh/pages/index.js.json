@@ -1,0 +1,194 @@
+{
+    "sourceFile": "pages/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 44,
+            "patches": [
+                {
+                    "date": 1673562424955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1673562431687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,8 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n       <main className={styles.main}>\n-  \n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562445110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n       <main className={styles.main}>\n+      <\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562456200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n       <main className={styles.main}>\n-      <\n+      <label>First name:</label>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562462091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n       <main className={styles.main}>\n       <label>First name:</label>\n+      <input></input>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562470884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,10 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n       <main className={styles.main}>\n       <label>First name:</label>\n-      <input></input>\n+      <input>\n+      \n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562479161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n       </Head>\n       <main className={styles.main}>\n       <label>First name:</label>\n       <input>\n-      \n+      type=\n+      /></input>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562487998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,11 @@\n       </Head>\n       <main className={styles.main}>\n       <label>First name:</label>\n       <input>\n-      type=\n-      /></input>\n+      type=\"text\"\n+\n+      </input>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562500992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,8 @@\n       </Head>\n       <main className={styles.main}>\n       <label>First name:</label>\n       <input>\n-      type=\"text\"\n \n       </input>\n       </main>\n     </>\n"
+                },
+                {
+                    "date": 1673562509574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,10 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n       <main className={styles.main}>\n       <label>First name:</label>\n-      <input>\n+      <input\n+        type=>\n \n       </input>\n       </main>\n     </>\n"
+                },
+                {
+                    "date": 1673562516370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       </Head>\n       <main className={styles.main}>\n       <label>First name:</label>\n       <input\n-        type=>\n+        type=\"text\">\n \n       </input>\n       </main>\n     </>\n"
+                },
+                {
+                    "date": 1673562530809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n       </Head>\n       <main className={styles.main}>\n       <label>First name:</label>\n       <input\n-        type=\"text\">\n+        type=\"text\"\n+        id=>\n \n       </input>\n       </main>\n     </>\n"
+                },
+                {
+                    "date": 1673562538148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,10 @@\n       <main className={styles.main}>\n       <label>First name:</label>\n       <input\n         type=\"text\"\n-        id=>\n+        id=\"first\"\n+        name=\"\">\n \n       </input>\n       </main>\n     </>\n"
+                },
+                {
+                    "date": 1673562546199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,10 @@\n       <label>First name:</label>\n       <input\n         type=\"text\"\n         id=\"first\"\n-        name=\"\">\n+        name=\"first\"\n+        patter>\n \n       </input>\n       </main>\n     </>\n"
+                },
+                {
+                    "date": 1673562556542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,11 +19,11 @@\n       <input\n         type=\"text\"\n         id=\"first\"\n         name=\"first\"\n-        patter>\n+        patter=\"\">\n \n-      </input>\n+      </>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562586665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,9 @@\n         type=\"text\"\n         id=\"first\"\n         name=\"first\"\n         patter=\"\">\n-\n-      </>\n+          />\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562591767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         type=\"text\"\n         id=\"first\"\n         name=\"first\"\n         patter=\"\">\n-          />\n+        <input/>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562603456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       <input\n         type=\"text\"\n         id=\"first\"\n         name=\"first\"\n-        patter=\"\">\n+        patter=\"[A-Z\">\n         <input/>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1673562614738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       <input\n         type=\"text\"\n         id=\"first\"\n         name=\"first\"\n-        patter=\"[A-Z\">\n+        patter=\"[A-Z] {1} [a-z] \">\n         <input/>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1673562628779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,12 @@\n       <input\n         type=\"text\"\n         id=\"first\"\n         name=\"first\"\n-        patter=\"[A-Z] {1} [a-z] \">\n+        patter=\"[A-Z] {1} [a-z] {2,10}\">\n         <input/>\n+\n+        \n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562635173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n         name=\"first\"\n         patter=\"[A-Z] {1} [a-z] {2,10}\">\n         <input/>\n \n-        \n+        <label>Username</label>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562640906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n         patter=\"[A-Z] {1} [a-z] {2,10}\">\n         <input/>\n \n         <label>Username</label>\n+        <input></input>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562646945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,11 @@\n         patter=\"[A-Z] {1} [a-z] {2,10}\">\n         <input/>\n \n         <label>Username</label>\n-        <input></input>\n+        <input  \n+        >\n+        </input>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562660342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,11 @@\n         <input/>\n \n         <label>Username</label>\n         <input  \n-        >\n+                type=\"text\"\n+                id=\"first\"\n+                name=\"first\">\n         </input>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1673562665738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         <input/>\n \n         <label>Username</label>\n         <input  \n-                type=\"text\"\n+                type=\"username\"\n                 id=\"first\"\n                 name=\"first\">\n         </input>\n       </main>\n"
+                },
+                {
+                    "date": 1673562676231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n         <input/>\n \n         <label>Username</label>\n         <input  \n-                type=\"username\"\n-                id=\"first\"\n+                type=\"text\"\n+                id=\"username\"\n                 name=\"first\">\n         </input>\n       </main>\n     </>\n"
+                },
+                {
+                    "date": 1673562681499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,10 @@\n         <label>Username</label>\n         <input  \n                 type=\"text\"\n                 id=\"username\"\n-                name=\"first\">\n+                name=\"username\"\n+                >\n         </input>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1673562686654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,10 @@\n         <input  \n                 type=\"text\"\n                 id=\"username\"\n                 name=\"username\"\n-                >\n+                required\n+                min>\n         </input>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1673562693915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n                 type=\"text\"\n                 id=\"username\"\n                 name=\"username\"\n                 required\n-                min>\n+                minLength=\"\">\n         </input>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1673562701852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,10 @@\n                 type=\"text\"\n                 id=\"username\"\n                 name=\"username\"\n                 required\n-                minLength=\"\">\n+                minLength=\"5\"\n+                maxLength=\"10\">\n         </input>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1673562711913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,10 @@\n                 required\n                 minLength=\"5\"\n                 maxLength=\"10\">\n         </input>\n+\n+          <button\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562724092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         type=\"text\"\n         id=\"first\"\n         name=\"first\"\n         patter=\"[A-Z] {1} [a-z] {2,10}\">\n-        <input/>\n+        <input>\n \n         <label>Username</label>\n         <input  \n                 type=\"text\"\n@@ -32,9 +32,9 @@\n                 minLength=\"5\"\n                 maxLength=\"10\">\n         </input>\n \n-          <button\n+          <button>Submit</button>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562729882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         type=\"text\"\n         id=\"first\"\n         name=\"first\"\n         patter=\"[A-Z] {1} [a-z] {2,10}\">\n-        <input>\n+        </input>\n \n         <label>Username</label>\n         <input  \n                 type=\"text\"\n"
+                },
+                {
+                    "date": 1673562741615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,9 @@\n                 maxLength=\"10\">\n         </input>\n \n           <button>Submit</button>\n+        </input>\n       </main>\n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1673562764682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import Image from 'next/image'\n import { Inter } from '@next/font/google'\n import styles from '../styles/Home.module.css'\n \n+\n const inter = Inter({ subsets: ['latin'] })\n \n export default function Home() {\n   return (\n"
+                },
+                {
+                    "date": 1673562770724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import Head from 'next/head'\n import Image from 'next/image'\n import { Inter } from '@next/font/google'\n import styles from '../styles/Home.module.css'\n+import{}  \n \n-\n const inter = Inter({ subsets: ['latin'] })\n \n export default function Home() {\n   return (\n"
+                },
+                {
+                    "date": 1673562777266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import Head from 'next/head'\n import Image from 'next/image'\n import { Inter } from '@next/font/google'\n import styles from '../styles/Home.module.css'\n-import{}  \n+import {useEffect}  \n \n const inter = Inter({ subsets: ['latin'] })\n \n export default function Home() {\n"
+                },
+                {
+                    "date": 1673562783935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import Head from 'next/head'\n import Image from 'next/image'\n import { Inter } from '@next/font/google'\n import styles from '../styles/Home.module.css'\n-import {useEffect}  \n+import {useEffect, useState}  \n \n const inter = Inter({ subsets: ['latin'] })\n \n export default function Home() {\n"
+                },
+                {
+                    "date": 1673562789226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import Head from 'next/head'\n import Image from 'next/image'\n import { Inter } from '@next/font/google'\n import styles from '../styles/Home.module.css'\n-import {useEffect, useState}  \n+import {useEffect, useState} from  'react'  \n \n const inter = Inter({ subsets: ['latin'] })\n \n export default function Home() {\n"
+                },
+                {
+                    "date": 1673562817424,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,9 @@\n                 required\n                 minLength=\"5\"\n                 maxLength=\"10\">\n         </input>\n-\n-          <button>Submit</button>\n+<button>Submit</button>\n         </input>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1673562836871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n import {useEffect, useState} from  'react'  \n \n const inter = Inter({ subsets: ['latin'] })\n \n+\n export default function Home() {\n   return (\n     <>\n       <Head>\n@@ -32,9 +33,9 @@\n                 required\n                 minLength=\"5\"\n                 maxLength=\"10\">\n         </input>\n-<button>Submit</button>\n+          <button>Submit</button>\n         </input>\n       </main>\n     </>\n   )\n"
+                },
+                {
+                    "date": 1673562843061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n import {useEffect, useState} from  'react'  \n \n const inter = Inter({ subsets: ['latin'] })\n \n+export default=\n \n export default function Home() {\n   return (\n     <>\n"
+                },
+                {
+                    "date": 1673562848280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import {useEffect, useState} from  'react'  \n \n const inter = Inter({ subsets: ['latin'] })\n \n-export default=\n+export default= Inter\n \n export default function Home() {\n   return (\n     <>\n"
+                },
+                {
+                    "date": 1673562856931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import {useEffect, useState} from  'react'  \n \n const inter = Inter({ subsets: ['latin'] })\n \n-export default= Inter({subsets:})\n+export default= Inter({subsets: })\n \n export default function Home() {\n   return (\n     <>\n"
+                },
+                {
+                    "date": 1673562993528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n const inter = Inter({ subsets: ['latin'] })\n \n export default function Home() {\n   const[formData] = useState  ({\n-    \n+    fi\n   })\n     <>\n       <Head>\n         <title>Create Next App</title>\n"
+                }
+            ],
+            "date": 1673562424955,
+            "name": "Commit-0",
+            "content": "import Head from 'next/head'\nimport Image from 'next/image'\nimport { Inter } from '@next/font/google'\nimport styles from '../styles/Home.module.css'\n\nconst inter = Inter({ subsets: ['latin'] })\n\nexport default function Home() {\n  return (\n    <>\n      <Head>\n        <title>Create Next App</title>\n        <meta name=\"description\" content=\"Generated by create next app\" />\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n        <link rel=\"icon\" href=\"/favicon.ico\" />\n      </Head>\n      <main className={styles.main}>\n  \n      </main>\n    </>\n  )\n}\n"
+        }
+    ]
+}

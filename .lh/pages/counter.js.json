@@ -1,0 +1,122 @@
+{
+    "sourceFile": "pages/counter.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 26,
+            "patches": [
+                {
+                    "date": 1673563971018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1673563978709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-export defaultt function Counter(0)\n\\ No newline at end of file\n+export defaultt function Counter(){\n+    return\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673563984725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n export defaultt function Counter(){\n-    return\n+    return ()\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673563992647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n export defaultt function Counter(){\n     return ()\n-    \n+        <>\n+\n+        </>\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673563999207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n export defaultt function Counter(){\n     return ()\n         <>\n-\n         </>\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673564006068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n export defaultt function Counter(){\n-    return ()\n+    return (\n         <>\n         </>\n+    )    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673564013097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n export defaultt function Counter(){\n     return (\n         <>\n+            <div\n         </>\n     )    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673564021302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n export defaultt function Counter(){\n     return (\n         <>\n-            <div\n+            <div>COUNTER PAGE</div>\n         </>\n     )    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673564027770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n export defaultt function Counter(){\n     return (\n         <>\n             <div>COUNTER PAGE</div>\n+            <div></div>\n         </>\n     )    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673564046499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n export defaultt function Counter(){\n     return (\n         <>\n             <div>COUNTER PAGE</div>\n-            <div></div>\n+            <div>Welcome</div>\n+\n+            <buttton>Incrementt</buttton>\n         </>\n     )    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673564053256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n             <div>COUNTER PAGE</div>\n             <div>Welcome</div>\n \n             <buttton>Incrementt</buttton>\n+            <button\n         </>\n     )    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673564058474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n             <div>COUNTER PAGE</div>\n             <div>Welcome</div>\n \n             <buttton>Incrementt</buttton>\n-            <button\n+            <button>Decrementt</button>\n         </>\n     )    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1673564066263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-export defaultt function Counter(){\n+export default function Counter(){\n     return (\n         <>\n             <div>COUNTER PAGE</div>\n             <div>Welcome</div>\n"
+                },
+                {
+                    "date": 1673564380015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n export default function Counter(){\n     return (\n         <>\n             <div>COUNTER PAGE</div>\n"
+                },
+                {
+                    "date": 1673564385760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+import  {}\n export default function Counter(){\n     return (\n         <>\n             <div>COUNTER PAGE</div>\n"
+                },
+                {
+                    "date": 1673564395595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import  {}\n+from\n export default function Counter(){\n     return (\n         <>\n             <div>COUNTER PAGE</div>\n"
+                },
+                {
+                    "date": 1673564403229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-from\n+import  { useEffect } from\"react\"\n export default function Counter(){\n     return (\n         <>\n             <div>COUNTER PAGE</div>\n"
+                },
+                {
+                    "date": 1673564464653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n-import  { useEffect } from\"react\"\n+import  { useEffect } from \"react\"\n export default function Counter(){\n+\n+    \n     return (\n         <>\n             <div>COUNTER PAGE</div>\n             <div>Welcome</div>\n"
+                },
+                {
+                    "date": 1673564483988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n import  { useEffect } from \"react\"\n+\n export default function Counter(){\n \n-    \n+\n+\n     return (\n         <>\n             <div>COUNTER PAGE</div>\n             <div>Welcome</div>\n"
+                },
+                {
+                    "date": 1673564492806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import  { useEffect } from \"react\"\n-\n+import { useSearch}\n export default function Counter(){\n \n \n \n"
+                },
+                {
+                    "date": 1673564508067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import  { useEffect } from \"react\"\n-import { useSearch}\n+import { useSearchParams } from 'next/navigation'\n export default function Counter(){\n \n \n \n"
+                },
+                {
+                    "date": 1673564514718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import  { useEffect } from \"react\"\n import { useSearchParams } from 'next/navigation'\n+import { use}\n export default function Counter(){\n \n \n \n"
+                },
+                {
+                    "date": 1673564525096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import  { useEffect } from \"react\"\n import { useSearchParams } from 'next/navigation'\n-import { use}\n+import { useRouter } from 'next/router'\n export default function Counter(){\n \n \n \n"
+                },
+                {
+                    "date": 1673564552373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import  { useEffect } from \"react\"\n import { useSearchParams } from 'next/navigation'\n import { useRouter } from 'next/router'\n+\n export default function Counter(){\n \n \n \n"
+                },
+                {
+                    "date": 1673564574329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,11 @@\n \n export default function Counter(){\n \n \n+    const searchParams\n \n+\n     return (\n         <>\n             <div>COUNTER PAGE</div>\n             <div>Welcome</div>\n"
+                },
+                {
+                    "date": 1673564583017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n export default function Counter(){\n \n \n-    const searchParams = useSearchParams\n+    const searchParams = useSearchParams()\n \n \n     return (\n         <>\n"
+                },
+                {
+                    "date": 1673565209344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <>\n             <div>COUNTER PAGE</div>\n             <div>Welcome</div>\n \n-            <buttton onClick{() => setNumber()}>Incrementt</buttton>\n+            <buttton onClick{() => setNumber(n)}>Incrementt</buttton>\n             <button>Decrementt</button>\n         </>\n     )    \n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1673563971018,
+            "name": "Commit-0",
+            "content": "export defaultt function Counter(0)"
+        }
+    ]
+}
